@@ -8,13 +8,13 @@ const Navbar = () => {
   
   return (
     <div>
-    <header className="text-white body-font bg-bgColor">
-  <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header className="text-white body-font bg-bgColor ">
+  <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row md:  items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <MdOutlineRestaurant color="white"/>
-      <span className="ml-3 text-xl text-white">Restoran</span>
+      <MdOutlineRestaurant size={30} color="#FEA116"/>
+      <span className="ml-3 text-4xl text-primary">Restoran</span>
     </a>
-    <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+    <nav className="md:ml-auto flex flex-wrap items-center text-base ">
       
       <Link to="/" className="mr-5 hover:text-primary">Home</Link>
             <Link to="/Contact" className="mr-5 hover:text-primary">Contact</Link>

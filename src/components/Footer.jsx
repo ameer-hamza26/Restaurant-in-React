@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <div className="flex md:flex-row justify-around bg-primary p-2">
+      <div className="flex md:flex-row justify-around bg-bgColor text-white p-2">
         <h1>Retoran &copy; all rights reserved </h1>
         <div>
-            <a href="home">home</a> / 
-            <a href="about">about</a>
+            <a href="home">Home</a>/ 
+            <a href="about">About</a>
         </div>
       </div>
     </div>

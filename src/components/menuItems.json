@@ -1,0 +1,44 @@
+{
+    "breakfast": [
+      {
+        "name": "Omelette with Cheese and Vegetables",
+        "price": 8.99,
+        "image": "omelette.jpg",
+        "description": "A fluffy omelette filled with your choice of cheese and fresh vegetables."
+      },
+      {
+        "name": "Pancakes with Maple Syrup",
+        "price": 7.50,
+        "image": "pancakes.jpg",
+        "description": "Fluffy pancakes served with maple syrup."
+      }
+        ],
+    "lunch": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "price": 10.99,
+        "image": "chicken_sandwich.jpg",
+        "description": "Grilled chicken breast on a toasted bun with lettuce, tomato, and mayo."
+      },
+      {
+        "name": "Caesar Salad",
+        "price": 9.50,
+        "image": "caesar_salad.jpg",
+        "description": "Crisp romaine lettuce tossed with Caesar dressing, croutons, and Parmesan cheese."
+      }
+          ],
+    "dinner": [
+      {
+        "name": "Steak and Fries",
+        "price": 18.99,
+        "image": "steak_and_fries.jpg",
+        "description": "Grilled steak served with crispy fries."
+      },
+      {
+        "name": "Spaghetti Bolognese",
+        "price": 14.99,
+        "image": "spaghetti_bolognese.jpg",
+        "description": "Spaghetti noodles tossed with a meat sauce."
+      }
+     ]
+  }
