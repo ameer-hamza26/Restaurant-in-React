@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection'
 import Reservation from '../components/Reservation'
 import MenuItems from '../components/MenuItems'
 import RestoranAbout from '../components/RestoranAbout'
+import Team from '../components/Team'
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       <RestoranAbout/>
       <MenuItems />
       <Reservation/>
-      
+      <Team/>
     </div>
   )
 }
