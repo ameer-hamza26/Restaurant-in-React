@@ -9,11 +9,11 @@ const RestoranAbout = () => {
   return (
     <div>
       <div className=" container mx-auto flex flex-col  md:flex-row h-full justify-center items-start bg-slate-200 p-6"> 
-        <div className="grid md:grid-cols-2 gap-6 mx-auto  place-items-center   w-1/2  ">
-            <img className='w-56  ' src={about1} alt="images" />
-   <img className='w-56 ' src={about2} alt="images" />
-            <img  className='w-56 ' src={about3} alt="images" />
-            <img className="w-56 " src={about4} alt="images" />
+        <div className="grid md:grid-cols-2 gap-6 mx-auto  place-items-center   md:w-1/2  ">
+            <img className='md:w-56 w-full  ' src={about1} alt="images" />
+   <img className='md:w-56 w-full ' src={about2} alt="images" />
+            <img  className='md:w-56 w-full' src={about3} alt="images" />
+            <img className="md:w-56 w-full" src={about4} alt="images" />
         </div>
         <div className='md:w-1/2 p-8'>
             <h1 className='font font-extrabold text-2xl text-primary '>about us ------</h1>
@@ -24,15 +24,15 @@ const RestoranAbout = () => {
 diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
 lorem sit clita duo justo magna dolore erat amet</p>
 
-<div className="flex  justify-between w-full   md:w-[80%]  md:my-8 "> 
-    <div className='flex   md:w-[50%] w-full justify-evenly   '>
+<div className="flex md:flex-row flex-col justify-between w-full   md:w-[80%]  md:my-8 "> 
+    <div className='flex md:w-[50%] w-full md:justify-evenly   '>
         <h1 className='text-primary font-bold text-4xl md:border-l-4 border-primary pl-3 '>13</h1>
         <div className='ml-4'>
         <h2 > Years of </h2>
         <h1 className='font-bold uppercase'>Experience</h1>
         </div>
     </div>
-    <div className='flex w-full md:w-[50%] justify-between'>
+    <div className='flex w-full md:w-[50%] md:justify-between md:my-0 my-4'>
         <h1 className='  text-primary font-bold text-4xl md:border-l-4 border-primary pl-3' >50</h1>
         <div className='ml-4'>
         <h2>Popular </h2>

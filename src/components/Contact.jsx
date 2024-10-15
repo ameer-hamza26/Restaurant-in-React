@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdMarkEmailRead } from "react-icons/md";
 // import ReactApi from './ReactApi';
-import img from "../images/container.png"
+// import img from "../images/container.png"
 const Contact = () => {
   return (
     <div className='container mx-auto my-14'> 

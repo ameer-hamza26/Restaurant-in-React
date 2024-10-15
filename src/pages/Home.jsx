@@ -5,6 +5,7 @@ import Reservation from '../components/Reservation'
 import MenuItems from '../components/MenuItems'
 import RestoranAbout from '../components/RestoranAbout'
 import Team from '../components/Team'
+import Client from '../components/Client'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <MenuItems />
       <Reservation/>
       <Team/>
+      <Client/>
     </div>
   )
 }
