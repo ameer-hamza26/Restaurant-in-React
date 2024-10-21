@@ -14,11 +14,11 @@ const HeroSection = () => {
             <p className="md:w-[100%]  text-white my-6">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
 amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita
 duo justo magna dolore erat amet</p>
-<button className="inline-flex items-center bg-primary border-0 py-2 px-3 focus:outline-none hover:bg-secondary  text-base mt-4 md:mt-0">Book a Table
+<button className="inline-flex items-center bg-primary border-0 py-2 px-3 focus:outline-none hover:bg-yellow-600 rounded text-base mt-4 md:mt-0">Book a Table
 </button>
         </div>
-        <div className="right-parent  md:w-1/4">
-<img  src={hero} alt="hero-Section" />
+        <div className="right-parent md:p-0 p-7 md:w-1/4">
+<img className=' ' src={hero} alt="hero-Section" />
         </div>
       </div>
       <AboutUs/>

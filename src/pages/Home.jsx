@@ -4,8 +4,8 @@ import HeroSection from '../components/HeroSection'
 import Reservation from '../components/Reservation'
 import MenuItems from '../components/MenuItems'
 import RestoranAbout from '../components/RestoranAbout'
-import Team from '../components/Team'
-import Client from '../components/Client'
+import ChefsList from '../components/ChefList'
+import Testimonials from '../components/Testimonials'
 
 const Home = () => {
   return (
@@ -14,8 +14,8 @@ const Home = () => {
       <RestoranAbout/>
       <MenuItems />
       <Reservation/>
-      <Team/>
-      <Client/>
+      <ChefsList/>
+      <Testimonials/>
     </div>
   )
 }

@@ -41,7 +41,7 @@ lorem sit clita duo justo magna dolore erat amet</p>
     </div>
 </div>
 
-<button className="inline-flex items-center text-white   bg-primary border-0 py-3 px-7 focus:outline-none hover:bg-gray-200  text-base mt-4 md:mt-0">Read More
+<button className="inline-flex items-center text-white   bg-primary border-0 py-3 px-7 focus:outline-none hover:bg-yellow-600 rounded text-base mt-4 md:mt-0">Read More
     </button>
         </div>
       </div>

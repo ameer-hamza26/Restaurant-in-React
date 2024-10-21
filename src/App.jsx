@@ -3,12 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import AboutUs from './components/AboutUs';
-import HeroSection from './components/HeroSection';
 import Footer from './components/Footer';
-import MenuItems from './components/MenuItems';
-import RestoranAbout from './components/RestoranAbout';
-import Reservation from './components/Reservation';
 import Home from './pages/Home';
+import ScrollButton from './components/ScrollButton';
 
 
 
@@ -23,7 +20,7 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
         </Routes>
       </Router>
-     
+      <ScrollButton/>     
       <Footer />
     </div>
   );
