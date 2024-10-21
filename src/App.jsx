@@ -6,22 +6,24 @@ import AboutUs from './components/AboutUs';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import ScrollButton from './components/ScrollButton';
-
-
+import Reservation from './components/Reservation';
 
 function App() {
   return (
-    <div id="bg-image" className="">
+    <div id="app" className="">
       <Router>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<AboutUs />} />
-        </Routes>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/reservation" element={<Reservation />} /> 
+          </Routes>
+        </main>
+        <ScrollButton />
+        <Footer />
       </Router>
-      <ScrollButton/>     
-      <Footer />
     </div>
   );
 }

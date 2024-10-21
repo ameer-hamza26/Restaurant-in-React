@@ -18,9 +18,8 @@ const Navbar = () => {
   <div className="flex items-center space-x-5"> {/* Add space between links and button */}
     <Link to="/" className="hover:text-primary">Home</Link>
     <Link to="/Contact" className="hover:text-primary">Contact</Link>
-    <button className="bg-primary border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-base">
-      Button
-    </button>
+    <button className="inline-flex items-center text-white bg-primary border-0 py-2 px-3 focus:outline-none hover:bg-yellow-600 rounded text-base mt-4 md:mt-0"><Link to="/reservation">Book a Table</Link>
+</button>
   </div>
 </nav>
 

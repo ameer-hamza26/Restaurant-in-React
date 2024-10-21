@@ -15,7 +15,7 @@ const Reservation = () => {
   }
   return (
     <div>
-      <div className=" container mx-auto Reservation flex flex-col md:flex-row md:flex">
+      <div className=" container mx-auto my-5 Reservation flex flex-col md:flex-row md:flex">
         <img className="md:w-1/2 object-cover" src={ReservationImg} alt="img" />
         <div className="form bg-blue-950 md:w-1/2 p-7 ">
           <h1 className="font font-extrabold text-2xl text-primary ">

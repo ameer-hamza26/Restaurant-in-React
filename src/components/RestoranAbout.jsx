@@ -8,7 +8,7 @@ import { MdOutlineRestaurant } from "react-icons/md";
 const RestoranAbout = () => {
   return (
     <div>
-      <div className=" container mx-auto flex flex-col  md:flex-row h-full justify-center items-start bg-slate-200 p-6"> 
+      <div className="  container mx-auto flex flex-col  md:flex-row h-full justify-center items-start bg-slate-200 p-6"> 
         <div className="grid md:grid-cols-2 gap-6 mx-auto  place-items-center   md:w-1/2  ">
             <img className='md:w-56 w-full  ' src={about1} alt="images" />
    <img className='md:w-56 w-full ' src={about2} alt="images" />
