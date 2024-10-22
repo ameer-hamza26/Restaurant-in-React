@@ -23,21 +23,21 @@ const MenuItems = () => {
     </div>
     <div  className=' menu-buttons cursor-pointer flex  md:w-full flex-row  justify-center'>
 
-    <div   className={`flex md:px-4 md:py-2 rounded ${selectedMenu === "breakfast" ? "  border-b-8 border-primary" : ""}`}
+    <div   className={`flex md:px-4 md:py-2 rounded hover:bg-gray-300 transition-all ease-in-out ${selectedMenu === "breakfast" ? "  border-b-8 border-primary" : ""}`}
           onClick={() => handleMenuChange("breakfast")}>  
 
     <BsFillCupHotFill className='md:mx-4 mx-2 text-primary' size={40}/>
     <div className=''><h1>popular</h1>
     <h1 className='font-extrabold'>Breakfast</h1></div>
     </div>
-    <div className={`flex md:px-4 md:py-2 rounded ${selectedMenu === "lunch" ? "border-b-8 border-primary" : ""}`}
+    <div className={`flex md:px-4 md:py-2 rounded hover:bg-gray-300 transition-all ease-in-out ${selectedMenu === "lunch" ? "border-b-8 border-primary" : ""}`}
           onClick={() => handleMenuChange("lunch")}>  
     <FaHamburger className='md:mx-4 mx-2 text-primary' size={40}/>
 
     <div className=''><h1>popular</h1>
     <h1 className='font-extrabold'>Launch</h1></div>
     </div>
-    <div className={`flex md:px-4 md:py-2 rounded ${selectedMenu === "dinner" ? "border-b-8 border-primary " : ""}`}
+    <div className={`flex md:px-4 md:py-2 rounded hover:bg-gray-300 transition-all ease-in-out ${selectedMenu === "dinner" ? "border-b-8 border-primary " : ""}`}
           onClick={() => handleMenuChange("dinner")}>  
     <MdOutlineRestaurant className='md:mx-4 mx-2 text-primary' size={40}/>
     <div><h1>lovely</h1>

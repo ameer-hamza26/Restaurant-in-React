@@ -6,11 +6,13 @@ import MenuItems from '../components/MenuItems'
 import RestoranAbout from '../components/RestoranAbout'
 import ChefsList from '../components/ChefList'
 import Testimonials from '../components/Testimonials'
+import AboutUs from "../components/AboutUs";
 
 const Home = () => {
   return (
     <div>
       <HeroSection/>
+      <AboutUs />
       <RestoranAbout/>
       <MenuItems />
       <Reservation/>

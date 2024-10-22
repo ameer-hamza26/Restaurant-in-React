@@ -7,6 +7,7 @@ import team4 from "../images/team4.png"
 
 const chefsData = [
   {
+    id: 1, // Unique ID for the chef
     name: 'Full Name',
     designation: 'Designation',
     image: team1,
@@ -14,8 +15,8 @@ const chefsData = [
     facebook: 'https://facebook.com/johndoe',
     twitter: 'https://twitter.com/johndoe',
   },
-  
   {
+    id: 2, // Unique ID for the chef
     name: 'Full Name',
     designation: 'Designation',
     image: team2,
@@ -23,8 +24,8 @@ const chefsData = [
     facebook: 'https://facebook.com/johndoe',
     twitter: 'https://twitter.com/johndoe',
   },
-  
   {
+    id: 3, // Unique ID for the chef
     name: 'Full Name',
     designation: 'Designation',
     image: team3,
@@ -32,8 +33,8 @@ const chefsData = [
     facebook: 'https://facebook.com/johndoe',
     twitter: 'https://twitter.com/johndoe',
   },
-  
   {
+    id: 4, // Unique ID for the chef
     name: 'Full Name',
     designation: 'Designation',
     image: team4,
@@ -41,14 +42,13 @@ const chefsData = [
     facebook: 'https://facebook.com/johndoe',
     twitter: 'https://twitter.com/johndoe',
   },
-  
 ];
 
 const ChefsList = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 place-items-center gap-3">
       {chefsData.map((chef) => (
-        <ChefCard key={chef.name} chef={chef} />
+        <ChefCard key={chef.id} chef={chef} />
       ))}
     </div>
   );

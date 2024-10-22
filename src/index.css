@@ -34,3 +34,19 @@ body {
 main {
   flex: 1; /* This allows the main content area to grow and push the footer down */
 }
+
+/* Apply to the image */
+.hero-img {
+  animation: rotateImage 20s linear infinite;
+  width: 100%; /* Ensure the image fits properly */
+}
+
+/* Define the animation */
+@keyframes rotateImage {
+  0% {
+    transform: (0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -98,7 +98,7 @@ const Reservation = () => {
   <div className="flex justify-center">
     <button
       type="submit"
-      className="inline-flex justify-center w-full my-3 text-white bg-primary border-0 p-3 focus:outline-none hover:bg-gray-200 rounded"
+      className="inline-flex justify-center w-full my-3 text-white bg-primary border-0 p-3 focus:outline-none hover:bg-yellow-600 rounded"
     >
       Book Now
     </button>
