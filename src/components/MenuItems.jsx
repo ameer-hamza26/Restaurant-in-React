@@ -51,7 +51,7 @@ const MenuItems = () => {
     
       <div className="container mx-auto grid md:grid-cols-2   mt-10 ">
         {menuData[selectedMenu].map((item) => (
-          <div key={item.id} className='bg-slate-100 rounded-3xl p-2 m-5'>
+          <div key={item.id} className='bg-gray-200 rounded-3xl p-2 m-5'>
             <div  className=" flex justify-between p-2 ">
             <img className="md:w-[20%] w-[30%] h-28 object-cover md:h-28 rounded-2xl" src={item.img} alt="recipe" />
 <div className='  w-1/2'>
