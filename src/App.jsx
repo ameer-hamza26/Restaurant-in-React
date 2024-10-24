@@ -23,7 +23,7 @@ function App() {
           </Routes>
         </main>
         <ScrollButton />
-        <Footer />
+         <Footer />
       </Router>
       <Analytics />
     </div>
