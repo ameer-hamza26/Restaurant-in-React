@@ -46,11 +46,18 @@ const chefsData = [
 
 const ChefsList = () => {
   return (
+  <div>
+      <div >
+    <h1 className='font font-extrabold text-2xl text-primary  text-center my-5'> ---- Team Members ---- </h1>
+        <h1 className='font font-extrabold text-4xl   text-center my-5'>Our Master Chefs</h1>
+
+    </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 place-items-center gap-3">
       {chefsData.map((chef) => (
         <ChefCard key={chef.id} chef={chef} />
       ))}
     </div>
+  </div>
   );
 };
 

@@ -15,9 +15,9 @@ const MenuItems = () => {
 
    return (
         
-    <div> 
-    <div>
-    <h1 className='font font-extrabold text-2xl text-primary  text-center my-5'> Food Menu </h1>
+    <div className="my-8"> 
+    <div >
+    <h1 className='font font-extrabold text-2xl text-primary  text-center my-5'> ---- Food Menu ---- </h1>
         <h1 className='font font-extrabold text-4xl   text-center my-5'>Most Popular Item</h1>
 
     </div>
@@ -56,7 +56,7 @@ const MenuItems = () => {
             <img className="md:w-[20%] w-[30%] h-28 object-cover md:h-28 rounded-2xl" src={item.img} alt="recipe" />
 <div className='  w-1/2'>
 <span className='block text-2xl my-2 '>{item.name} </span>
-<hr className='my-4' />
+<hr className='md:my-4 my-2' />
 <span>{item.desc}</span>
 </div>            
 <span className=' text-2xl '>{item.price}</span>

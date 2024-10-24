@@ -17,7 +17,7 @@ const RestoranAbout = () => {
         </div>
         <div className='md:w-1/2 p-8'>
             <h1 className='font font-extrabold text-2xl text-primary '>about us ------</h1>
-            <h1 className='flex font-bold text-3xl text-black items-center capitalize my-6'>Welcome to the <MdOutlineRestaurant  color="#FEA116" size={30} className="md:mx-3 "/>Restoran</h1>
+            <h1 className='flex md:flex-row flex-col items-center font-bold text-3xl text-black   capitalize my-6'>Welcome to the <MdOutlineRestaurant  color="#FEA116" size={30} className="md:mx-3 my-2"/>Restoran</h1>
             <p className="my-3 md:w-[90%] text-justify ">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
             diam ametdiam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
             <p className='my-4 md:w-[90%] text-justify'>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu

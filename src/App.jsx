@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import ScrollButton from './components/ScrollButton';
 import Reservation from './components/Reservation';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <ScrollButton />
         <Footer />
       </Router>
+      <Analytics />
     </div>
   );
 }

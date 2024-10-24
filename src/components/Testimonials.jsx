@@ -28,7 +28,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div className="my-10 text-center">
-      <h1 className="font-extrabold text-2xl text-primary">------ Testimonial ------</h1>
+      <h1 className="font-extrabold text-2xl text-primary">---- Testimonial ----</h1>
       <h1 className="font-bold text-3xl capitalize my-6">Our Clients Say</h1>
       <div className="flex flex-col  md:flex-row md:justify-evenly items-center">
         {testimonials.map((client, index) => (

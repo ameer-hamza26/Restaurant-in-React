@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div>
       <div className=" bg-bgColor flex md:flex-row flex-col items-center md:justify-center md:h-[90vh] ">
         <div className="left-parent md:text-left my-4 text-center md:w-1/2">
-          <h1 className="font md:text-6xl md:text-left text-center text-4xl  text-white leading-tight font-extrabold">
+          <h1 className="font  md:text-6xl md:text-left text-center text-4xl  text-white  font-extrabold md:leading-snug leading-normal">
             Enjoy our <br /> delicious meal
           </h1>
           <p className="md:w-[80%] text-white my-6 justify-center w-[100%] md:p-0 p-3 text-justify  ">
